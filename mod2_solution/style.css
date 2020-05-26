@@ -1,0 +1,57 @@
+*{
+	box-sizing: border-box;
+	font-family: cursive;
+}
+h2{
+	text-align: center;
+}
+div{
+	background-color: grey;
+	border: 3px solid black;
+	float: left;
+	margin: 10px;
+	position: relative;
+}
+p{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 5px;
+	margin-top: 35px;
+}
+@media (min-width: 992px){
+	div{
+		width: 31%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.qwe{
+		width: 47%;
+	}
+	.qw{
+		width: 96.2%;
+	}
+}
+@media (max-width: 767px)
+{
+	div{
+		width: 96.2%;
+	}
+}
+h4{
+	padding:2px 30px 2px 30px;
+	border: 1px solid black;
+	margin: 0px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#q{
+	background-color: pink;
+}
+#w{
+	background-color: red;
+}
+#e{
+	background-color: yellow;
+}
